@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Book Antiqua",sans-serif;
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:40px 12%;
+    background: thistle;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color:darkmagenta;
+    font-weight:600;
+    transition: 0.5s ease;
+}
+.logo:hover{
+    color:deeppink;
+    text-shadow: 0 0 25px deeppink;
+    text-shadow: 0 0 50px deeppink;
+    transform: scale(1.2);
+}
+span{
+    color: deeppink;
+}
+.meni a{
+    font-size: 18px;
+    font-weight: 500;
+    color:floralwhite;
+    margin:0 20px;
+    border-bottom:3px solid transparent;
+    transition: 0.5s ease;
+}
+.meni a:hover, .meni a.bio{
+    color:deeppink;
+    border-bottom: 3px solid deeppink;
+}
+.meni a:hover, .meni a.edu{
+    color:deeppink;
+    border-bottom: 3px solid deeppink;
+}
+.meni a:hover, .meni a.tr{
+    color:deeppink;
+    border-bottom: 3px solid deeppink;
+}
+.meni a:hover, .meni a.skills{
+    color:deeppink;
+    border-bottom: 3px solid deeppink;
+}
+.contact{
+    padding:10px 28px;
+    background-color: white;
+    color:deeppink;
+    border:2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.contact:hover{
+    background-color: deeppink;
+    box-shadow: 0 0 25px deeppink;
+    color:white;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+    background-color: whitesmoke;
+}
+.content{
+    max-width: 800px;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 1.2;
+    margin-top: 50px;
+}
+.content, .parr{
+    font-size: 18px;
+    margin:25px 0 30px;
+}
+.img img{
+    border-radius: 30px;
+    width:250px;
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    background: thistle;
+}
+.sliki{
+    width:30px;
+}
+#sl2{
+    margin-top: 85px;
+    width:180px;
+}
+#sl3{
+    margin-top: 1px;
+    width:180px;
+    margin-left:220px;
+    height: 180px;
+}
+#sl4{
+    margin-top: 1px;
+    width:180px;
+    height: 180px;
+}
+figcaption{
+    width:280px;
+    color:deeppink;
+}
+#fig2{
+    margin-left: 220px;
+}
+#fig3{
+    margin-left: 30px;
+}
+.par{
+    font-size: 23px;
+}
+.gallery{
+    display: block;
+    float:left;
+    width:20%;
+    padding: 10px;
+}
+.gallery img{
+    width: 100%;
+}
+.slikii{
+    margin-left: 10px;
+}
+.gallery img:hover{
+    transform: scale(1.5);
+    transition:3s transform;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+    background-color:darkmagenta;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: deeppink;
+}
+.links{
+    margin-top: 350px;
+    margin-left: 350px;
+
+}
+.link{
+    color:deeppink;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.footr{
+    margin-top: 200px;
+}
